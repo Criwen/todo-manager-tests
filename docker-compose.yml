@@ -1,0 +1,7 @@
+services:
+  todo-manager:
+    image: todo-app:latest
+    environment:
+      VERBOSE: 1
+    ports:
+      - 8080:4242
